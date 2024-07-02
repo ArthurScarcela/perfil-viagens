@@ -1,20 +1,20 @@
-header{
+header {
   padding-block: 32px;
   font: var(--text-md);
 }
 
-header .container{
+header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-#profile{
+#profile {
   display: flex;
   gap: 32px;
 }
 
-#profile > div{
+#profile>div {
   max-width: 384px;
 }
 
@@ -24,8 +24,14 @@ header .container{
   margin-bottom: 8px;
 }
 
+#profile img {
+  width: 176px;
+  height: 176px;
+  object-fit: cover;
+  border-radius: 50%;
+}
 
-#info{
+#info {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -33,7 +39,7 @@ header .container{
   width: 280px;
 }
 
-#info li{
+#info li {
   display: flex;
   align-items: center;
   gap: 8px;
