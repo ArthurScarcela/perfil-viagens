@@ -1,12 +1,31 @@
 main {
   display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-  padding-block: 24px;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1rem;
+
+  margin-block: 1rem;
 }
 
 main img{
-  width: 286px;
-  height: 286px;
-  object-fit: cover;
+  width: 20.5rem;
+  height: 20.5rem;
+}
+
+@media (width >= 80em) {
+  main {
+    max-width: 80em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-inline: 2rem;
+    margin-block: 1.5rem;
+
+    & img{
+      width: 17.875rem;
+      height: 17.875rem;
+      object-fit: cover;
+    }
+  }
 }

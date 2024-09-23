@@ -1,10 +1,44 @@
-footer{
-  display: flex;
-  padding-block: 24px;
-  gap: 24px;
-  font: 14px/150% var(--font-family)
+footer {
+  width: 22.5rem;
+  display: grid;
+  grid-template-columns: 22.5rem / repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: 
+  ". copy copy ."
+  "terms terms policy policy"
+  ;
+  row-gap: 1rem;
+
+  padding-block: 2rem;
+  padding-inline: 2rem;
+
+  justify-items: center;
+
+  font: 14px/150% var(--font-family);
+
+  & span:nth-child(1) {
+    grid-area: copy;
+  }
+  & span:nth-child(2) {
+    grid-area: terms;
+  }
+  & span:nth-child(3) {
+    grid-area: policy;
+  }
 }
 
-footer span:nth-child(1){
-  margin-right: auto;
+
+@media (width >= 80em) {
+  footer {
+    width: 100%;
+    display: flex;
+    padding-block: 24px;
+    padding-inline: 2rem;
+    gap: 24px;
+    font: 14px/150% var(--font-family);
+
+    & span:nth-child(1) {
+      margin-right: auto;
+    }
+  }
 }
