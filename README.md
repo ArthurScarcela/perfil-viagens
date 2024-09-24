@@ -1,6 +1,6 @@
 # 🌍 Viagens pelo Mundo
 
-Bem-vindo ao meu perfil de viagens, onde compartilho minhas experiências e histórias de aventuras ao redor do mundo. Esta página documenta os lugares que visitei, dicas de viagem e minhas fotos favoritas de cada destino.
+Bem-vindo ao meu perfil de viagens, onde compartilho minhas experiências e histórias de aventuras ao redor do mundo. Esta página documenta os lugares que visitei e minhas fotos favoritas de cada destino.
 <br></br>
 ![image](https://github.com/user-attachments/assets/e661c265-3fd6-4184-ae66-ea8dbbe54fcf)
 
